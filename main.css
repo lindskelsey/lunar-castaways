@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(#5164b5, #9437ff);
+}
+
+i {
+  color: #fff;
+  margin: 0 2% 0 2%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.icons {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 5%;
+}
+
+.twitch {
+  text-align: center;
+}
