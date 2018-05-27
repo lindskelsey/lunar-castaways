@@ -9,6 +9,7 @@
   <meta name="author" content="Lunar Castaways">
 
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 </head>
 
@@ -16,6 +17,22 @@
 
   <img src="images/lclogo.png">
 
+
+  <div id="twitch-embed"></div>
+
+  <i class="fab fa-twitch fa-2x"></i>
+  <i class="fab fa-youtube fa-2x"></i>
+  <i class="fab fa-twitter fa-2x"></i>
+
+   <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+   <script type="text/javascript">
+     new Twitch.Embed("twitch-embed", {
+       width: 854,
+       height: 480,
+       channel: "lunarcastaways"
+     });
+   </script>
 
 
 </body>
